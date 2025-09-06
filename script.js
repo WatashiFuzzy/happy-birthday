@@ -9,9 +9,9 @@ Chúc chị tuổi mới thật nhiều sức khoẻ, bình an, công việc thu
 Dù bận đến đâu em vẫn luôn tự hào vì có chị.\n
 Yêu chị rất nhiều! 💖`,
   quotes: [
-    { t: '“Chị là ánh đèn ấm áp trong căn nhà của em.”' },
+    { t: '“Sinh nhật vui vẻ nhé chị yêu của em. May mắn sẽ đến với chị yêu của em.”' },
     { t: '“Thêm một tuổi, thêm một ước mơ – và em tin chị sẽ làm được.”' },
-    { t: '“Cả bầu trời thương mến – dành tặng riêng chị.”' },
+    { t: '“Chúc chị gái yêu của em một ngày sinh nhật thật nhiều niềm vui, may mắn và có thật nhiều hoa nhé! ”' },
   ],
   gallery: [
     { src: './images/chi1.jpg', alt: 'Khoảnh khắc 1' },

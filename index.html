@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chúc mừng sinh nhật chị yêu – 07/09</title>
+    <meta name="description" content="Trang web nhỏ xinh để chúc mừng sinh nhật chị – 07/09" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-zinc-950 text-white font-sans selection:bg-primary-400 selection:text-white noise">
+    <!-- Nội dung chính -->
+    <main class="relative min-h-screen bg-soft">
+      <section class="relative z-10 mx-auto max-w-5xl px-6 pt-16 pb-8 text-center">
+        <h1 class="text-5xl font-extrabold leading-tight">
+          <span class="block bg-gradient-to-br from-primary-300 via-pink-300 to-rose-400 bg-clip-text text-transparent">Chúc mừng sinh nhật</span>
+          <span id="recipient" class="mt-2 block text-white/90"></span>
+        </h1>
+        <p id="dateLabel" class="mt-4 text-white/70 text-lg">07/09</p>
+
+        <div class="mt-8 grid gap-4 sm:grid-cols-3">
+          <div class="card">
+            <p class="text-sm text-white/60">Còn lại</p>
+            <p id="countdown" class="mt-1 text-2xl font-semibold">—</p>
+          </div>
+          <div class="card">
+            <p class="text-sm text-white/60">Tâm thư gửi chị</p>
+            <div id="typed" class="typewriter mt-2 text-left leading-relaxed"></div>
+          </div>
+          <div class="card flex flex-col items-center justify-center gap-3">
+            <button id="confettiBtn" class="btn">Bắn pháo hoa 🎉</button>
+            <audio id="player" autoplay loop muted></audio>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quotes -->
+      <section class="relative z-10 mx-auto max-w-5xl px-6 py-6">
+        <div id="quotes" class="grid md:grid-cols-3 gap-4"></div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="relative z-10 mx-auto max-w-5xl px-6 pb-20">
+        <h2 class="text-2xl font-bold mb-4">Album nhỏ của chị</h2>
+        <div id="gallery" class="grid grid-cols-2 sm:grid-cols-3 gap-3"></div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="relative z-10 border-t border-white/10 bg-white/5 backdrop-blur-sm">
+        <div class="mx-auto max-w-5xl px-6 py-6 flex items-center justify-between text-sm text-white/70">
+          <span>Made with ♥ by <span id="author"></span></span>
+          <button id="shareBtn" class="btn-outline">Chia sẻ lời chúc</button>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
